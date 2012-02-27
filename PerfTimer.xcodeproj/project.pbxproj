@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3944AC914F6F5850006DB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3944AC814F6F5850006DB47 /* Foundation.framework */; };
+		D3944ACC14F6F5850006DB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3944ACB14F6F5850006DB47 /* main.m */; };
+		D3944AD814F6F5A70006DB47 /* PerfTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3944AD714F6F5A70006DB47 /* PerfTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3944AC214F6F5850006DB47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3944AC414F6F5850006DB47 /* PerfTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerfTimer; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3944AC814F6F5850006DB47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3944ACB14F6F5850006DB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3944ACE14F6F5850006DB47 /* PerfTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerfTimer-Prefix.pch"; sourceTree = "<group>"; };
+		D3944AD614F6F5A70006DB47 /* PerfTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfTimer.h; sourceTree = "<group>"; };
+		D3944AD714F6F5A70006DB47 /* PerfTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3944AC114F6F5850006DB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3944AC914F6F5850006DB47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3944AB914F6F5850006DB47 = {
+			isa = PBXGroup;
+			children = (
+				D3944ACA14F6F5850006DB47 /* PerfTimer */,
+				D3944AC714F6F5850006DB47 /* Frameworks */,
+				D3944AC514F6F5850006DB47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3944AC514F6F5850006DB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3944AC414F6F5850006DB47 /* PerfTimer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3944AC714F6F5850006DB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3944AC814F6F5850006DB47 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3944ACA14F6F5850006DB47 /* PerfTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D3944ACB14F6F5850006DB47 /* main.m */,
+				D3944AD614F6F5A70006DB47 /* PerfTimer.h */,
+				D3944AD714F6F5A70006DB47 /* PerfTimer.m */,
+				D3944ACD14F6F5850006DB47 /* Supporting Files */,
+			);
+			path = PerfTimer;
+			sourceTree = "<group>";
+		};
+		D3944ACD14F6F5850006DB47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3944ACE14F6F5850006DB47 /* PerfTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3944AC314F6F5850006DB47 /* PerfTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3944AD314F6F5850006DB47 /* Build configuration list for PBXNativeTarget "PerfTimer" */;
+			buildPhases = (
+				D3944AC014F6F5850006DB47 /* Sources */,
+				D3944AC114F6F5850006DB47 /* Frameworks */,
+				D3944AC214F6F5850006DB47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfTimer;
+			productName = PerfTimer;
+			productReference = D3944AC414F6F5850006DB47 /* PerfTimer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3944ABB14F6F5850006DB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Directr, Inc.";
+			};
+			buildConfigurationList = D3944ABE14F6F5850006DB47 /* Build configuration list for PBXProject "PerfTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3944AB914F6F5850006DB47;
+			productRefGroup = D3944AC514F6F5850006DB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3944AC314F6F5850006DB47 /* PerfTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3944AC014F6F5850006DB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3944ACC14F6F5850006DB47 /* main.m in Sources */,
+				D3944AD814F6F5A70006DB47 /* PerfTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3944AD114F6F5850006DB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3944AD214F6F5850006DB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3944AD414F6F5850006DB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfTimer/PerfTimer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3944AD514F6F5850006DB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerfTimer/PerfTimer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3944ABE14F6F5850006DB47 /* Build configuration list for PBXProject "PerfTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3944AD114F6F5850006DB47 /* Debug */,
+				D3944AD214F6F5850006DB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3944AD314F6F5850006DB47 /* Build configuration list for PBXNativeTarget "PerfTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3944AD414F6F5850006DB47 /* Debug */,
+				D3944AD514F6F5850006DB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3944ABB14F6F5850006DB47 /* Project object */;
+}
