@@ -4,7 +4,11 @@ PerfTimer
 This is a simple class for making performance measurements in iOS or OS X
 programs.
 
-(http://www.objective-brian.com/334)
+A blob posting about the project can be found at:
+
+http://www.objective-brian.com/334
+
+Email brian@softwarenerd.org 
 
 
 The following markups are supported.  The dependencies listed are required if
