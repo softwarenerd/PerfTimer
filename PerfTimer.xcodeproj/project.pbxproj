@@ -25,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D35E7CB814FC56A500041ED8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D3944AC414F6F5850006DB47 /* PerfTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerfTimer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3944AC814F6F5850006DB47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3944ACB14F6F5850006DB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				D3944ACE14F6F5850006DB47 /* PerfTimer-Prefix.pch */,
-				D35E7CB814FC56A500041ED8 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
