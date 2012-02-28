@@ -5,8 +5,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#include <mach/mach.h>
-#include <mach/mach_time.h>
 
 // PerfTimer interface.
 @interface PerfTimer : NSObject

@@ -5,6 +5,8 @@
 //
 
 #import "PerfTimer.h"
+#include <mach/mach.h>
+#include <mach/mach_time.h>
 
 // PerfTimer implementation.
 @implementation PerfTimer
