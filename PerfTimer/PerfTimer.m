@@ -5,8 +5,6 @@
 //
 
 #import "PerfTimer.h"
-#include <mach/mach.h>
-#include <mach/mach_time.h>
 
 // PerfTimer implementation.
 @implementation PerfTimer
@@ -47,8 +45,8 @@
 // Starts or restarts the perf timer.
 - (void)start;
 {
-    capture_ = 0ULL;
     started_ = mach_absolute_time();
+    capture_ = 0ULL;
 }
 
 // Captures the perf timer.
@@ -99,16 +97,16 @@
     // Format the elapsed ns. This will always be returned.
     NSString * nsElapsedString = [formatter stringFromNumber:[NSNumber numberWithLongLong:nsElapsed]];
 
-    // If the elapsed NS is < 1 ns, just return the elapsed ns.
+    // If the elapsed ns is < 1 ms, just return the elapsed ns.
     if (nsElapsed < 1000000ULL)
     {
         return [NSString stringWithFormat:@"[%@ ns]", nsElapsedString];
     }
 
-    // Format the elapsed ns.
+    // Format the elapsed ms.
     NSString * msElapsedString = [formatter stringFromNumber:[NSNumber numberWithLong:[self msElapsed]]];
     
-    // Done.
+    // Done. Return elapsed ms and ns.
     return [NSString stringWithFormat:@"[%@ ms] [%@ ns]", msElapsedString, nsElapsedString];
 }
 
