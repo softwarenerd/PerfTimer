@@ -1,11 +1,11 @@
-GitHub Markup
-=============
+PerfTimer
+=========
 
-We use this library on GitHub when rendering your README or any other
-rich text file.
+This is a simple class for making performance measurements in iOS or OS X
+programs.
 
-Markups
--------
+(http://www.objective-brian.com/334)
+
 
 The following markups are supported.  The dependencies listed are required if
 you wish to run the library.
